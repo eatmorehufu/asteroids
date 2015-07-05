@@ -1,0 +1,61 @@
+html, body, canvas {
+  padding: 0px;
+  margin: 0px;
+  background: black;
+  color: white;
+  font-family: 'Press Start 2P';
+}
+canvas {
+  background: #000;
+  display: block;
+  width: 800px;
+  height: 400px;
+  float: left;
+  box-shadow: -4px 0 0px 0px #fff,
+    4px 0 0px 0px #aaa,
+    0 4px 0px 0px #aaa,
+    0 -4px 0px 0px #fff;
+}
+h1 {
+  color: white;
+  display: block;
+  margin: 50px;
+}
+
+ul {
+  list-style: none;
+  display: block;
+  float: right;
+  box-shadow: -4px 0 0px 0px #fff,
+    4px 0 0px 0px #aaa,
+    0 4px 0px 0px #aaa,
+    0 -4px 0px 0px #fff;
+  width: 350px;
+}
+
+li {
+  padding: 10px;
+}
+
+img{
+  display: none;
+}
+
+footer {
+  font-size: 10px;
+  display:block;
+  clear: both;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+main {
+  margin: auto;
+  width: 1200px;
+}
+
+main:after {
+  content: "";
+  display: block;
+  clear:both;
+}
