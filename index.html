@@ -4,7 +4,6 @@
     <title>Asteroids</title>
     <link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
     <link href='./css/stylesheet.css' rel='stylesheet' type='text/css'>
-    <h1>Asteroids: Twin Sticks</h1>
   </head>
 
   <body>
@@ -27,13 +26,13 @@
       <script>
         $(function() {
           var canvasEl = document.getElementsByTagName("canvas")[0];
-          canvasEl.height = 400;
-          canvasEl.width = 800;
+          canvasEl.height = 600;
+          canvasEl.width = 1024;
           var ctx = canvasEl.getContext("2d");
           new Asteroids.GameView(ctx, canvasEl).start();
         });
       </script>
     </main>
-    <footer>Game by Dean Hu. Ship and Asteroid sprites by Bobby Frye.<footer>
+    <footer>Game by Dean Hu. Ship and Asteroid sprites by Bobby Frye. <a href="http://www.github.com/eatmorehufu/asteroids">Github</a><footer>
   </body>
 </html>

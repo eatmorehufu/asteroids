@@ -8,9 +8,9 @@ html, body, canvas {
 canvas {
   background: #000;
   display: block;
-  width: 800px;
-  height: 400px;
-  float: left;
+  width: 1024px;
+  height: 600px;
+  margin: 20px auto;
   box-shadow: -4px 0 0px 0px #fff,
     4px 0 0px 0px #aaa,
     0 4px 0px 0px #aaa,
