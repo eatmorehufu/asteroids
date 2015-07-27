@@ -1,5 +1,7 @@
 # Asteroids: Twin Sticks
 
+[Live](http://www.deanhu.com/asteroids)
+
 ## About
 I created this Asteroids game demo using javascript, HTML canvas and a small
 bit of jQuery. I've never been a fan of the traditional asteroids control
